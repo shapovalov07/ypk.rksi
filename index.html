@@ -8,16 +8,18 @@
       content="Учебно-производственный комплекс РКСИ: разработка сайтов, дизайн, брендинг, поддержка и обучение от студенческой ИТ-команды колледжа."
     >
     <title>УПК РКСИ — сайты, дизайн и цифровые решения</title>
-    <link rel="preload" href="styles.css?v=13" as="style">
-    <link rel="stylesheet" href="styles.css?v=13">
+    <link rel="preload" href="styles.css?v=25" as="style">
+    <link rel="stylesheet" href="styles.css?v=25">
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="УПК РКСИ">
-        <span class="brand-mark">У</span>
+        <span class="brand-mark" aria-hidden="true">
+          <span>УПК</span>
+        </span>
         <span>
           <strong>УПК РКСИ</strong>
-          <small>цифровая мастерская колледжа</small>
+          <small>учебно-производственный комплекс</small>
         </span>
       </a>
 
@@ -31,7 +33,7 @@
         <a href="#services">Услуги</a>
         <a href="#process">Процесс</a>
         <a href="#cases">Форматы</a>
-        <a href="#request">Заявка</a>
+        <a href="#contacts">Контакты</a>
       </nav>
     </header>
 
@@ -60,14 +62,19 @@
         <div class="hero-content">
           <div class="hero-copy">
             <p class="eyebrow">Учебно-производственный комплекс РКСИ</p>
-            <h1 id="hero-title">Цифровая команда колледжа для задач бизнеса</h1>
+            <h1 id="hero-title">Цифровая мастерская РКСИ для реальных проектов</h1>
             <p class="hero-lead">
-              Собираем сайты, интерфейсы, визуальную упаковку и поддержку как реальные учебно-производственные
-              проекты: с брифом, планом, наставниками и понятным результатом.
+              Создаем сайты, интерфейсы, визуальную упаковку и сопровождение в формате учебно-производственных
+              проектов колледжа связи и информатики: с брифом, наставниками и понятным результатом.
             </p>
             <div class="hero-actions">
-              <a class="button primary" href="#request">Обсудить проект</a>
+              <a class="button primary" href="#contacts">Связаться</a>
               <a class="button secondary" href="#services">Посмотреть услуги</a>
+            </div>
+            <div class="hero-affiliation" aria-label="Связь с РКСИ">
+              <span>ГБПОУ РО РКСИ</span>
+              <span>ИТ и телекоммуникации</span>
+              <a href="https://rksi.ru/" target="_blank" rel="noreferrer">rksi.ru</a>
             </div>
             <dl class="hero-stats" aria-label="Ключевые преимущества">
               <div>
@@ -87,8 +94,8 @@
 
           <aside class="hero-workbench" aria-label="Как стартует проект в УПК">
             <div class="workbench-head">
-              <span>модель работы</span>
-              <strong>задача заказчика становится проектом для команды УПК</strong>
+              <span>модель РКСИ</span>
+              <strong>задача заказчика становится учебно-производственным проектом</strong>
             </div>
             <ol class="hero-flow">
               <li>
@@ -191,7 +198,7 @@
           <p class="eyebrow">Услуги</p>
           <h2 id="services-title">Цифровые задачи, которые можно отдавать в УПК</h2>
           <p>
-            Список собран по логике студии Design HOPE и адаптирован под ИТ-профиль колледжа:
+            Список собран под ИТ-профиль РКСИ и задачи учебно-производственной практики:
             от быстрого лендинга до поддержки сайта образовательной организации.
           </p>
         </div>
@@ -203,7 +210,7 @@
             <p>Лендинги, сайты подразделений, страницы мероприятий, приемных кампаний и проектов.</p>
             <div class="service-meta">
               <strong class="service-price">от 20 000 ₽</strong>
-              <a class="service-link" href="#request">Оставить заявку →</a>
+              <a class="service-link" href="#contacts">Связаться →</a>
             </div>
             <ul>
               <li>прототип и структура</li>
@@ -217,7 +224,7 @@
             <p>Макеты страниц, UI-киты, оформление сервисов, личных кабинетов и внутренних систем.</p>
             <div class="service-meta">
               <strong class="service-price">от 12 000 ₽</strong>
-              <a class="service-link" href="#request">Оставить заявку →</a>
+              <a class="service-link" href="#contacts">Связаться →</a>
             </div>
             <ul>
               <li>Figma-макеты</li>
@@ -231,7 +238,7 @@
             <p>Логотип, фирменные цвета, шаблоны для презентаций, соцсетей и печатных материалов.</p>
             <div class="service-meta">
               <strong class="service-price">от 7 000 ₽</strong>
-              <a class="service-link" href="#request">Оставить заявку →</a>
+              <a class="service-link" href="#contacts">Связаться →</a>
             </div>
             <ul>
               <li>визуальная система</li>
@@ -245,7 +252,7 @@
             <p>Регулярные обновления, замена контента, аналитика, проверка форм и технический уход.</p>
             <div class="service-meta">
               <strong class="service-price">от 7 000 ₽/мес.</strong>
-              <a class="service-link" href="#request">Оставить заявку →</a>
+              <a class="service-link" href="#contacts">Связаться →</a>
             </div>
             <ul>
               <li>контентные правки</li>
@@ -259,7 +266,7 @@
             <p>Обновление устаревшего сайта без потери смысла: структура, визуальный язык, скорость.</p>
             <div class="service-meta">
               <strong class="service-price">от 9 000 ₽</strong>
-              <a class="service-link" href="#request">Оставить заявку →</a>
+              <a class="service-link" href="#contacts">Связаться →</a>
             </div>
             <ul>
               <li>аудит текущих страниц</li>
@@ -273,7 +280,7 @@
             <p>Копирайт для страниц, карточек услуг, новостей, портфолио и презентаций проекта.</p>
             <div class="service-meta">
               <strong class="service-price">от 3 000 ₽</strong>
-              <a class="service-link" href="#request">Оставить заявку →</a>
+              <a class="service-link" href="#contacts">Связаться →</a>
             </div>
             <ul>
               <li>структура смыслов</li>
@@ -290,7 +297,7 @@
             </p>
             <div class="service-meta">
               <strong class="service-price">от 27 000 ₽/мес.</strong>
-              <a class="service-link" href="#request">Оставить заявку →</a>
+              <a class="service-link" href="#contacts">Связаться →</a>
             </div>
             <ul>
               <li>карта обязательных разделов</li>
@@ -298,82 +305,6 @@
               <li>регулярное обновление материалов</li>
             </ul>
           </article>
-        </div>
-      </section>
-
-      <section class="calculator section-band" aria-labelledby="calculator-title">
-        <div class="section-head compact">
-          <p class="eyebrow">Подбор формата</p>
-          <h2 id="calculator-title">Соберите заявку за минуту</h2>
-          <p>Выберите нужные работы, а сайт сформирует краткое описание для первого обсуждения.</p>
-        </div>
-
-        <div class="builder">
-          <form class="builder-form" id="service-builder">
-            <label>
-              <input type="checkbox" name="service" value="лендинг или сайт проекта" data-service="site">
-              <span class="builder-option-index">01</span>
-              <span class="builder-option-copy">
-                <strong>Лендинг / сайт проекта</strong>
-                <small>Структура, верстка, публикация и базовая подготовка к запуску.</small>
-              </span>
-            </label>
-            <label>
-              <input type="checkbox" name="service" value="дизайн интерфейса" data-service="design">
-              <span class="builder-option-index">02</span>
-              <span class="builder-option-copy">
-                <strong>Дизайн интерфейса</strong>
-                <small>Макеты экранов, состояния элементов и адаптация под мобильные.</small>
-              </span>
-            </label>
-            <label>
-              <input type="checkbox" name="service" value="логотип и фирменный стиль" data-service="brand">
-              <span class="builder-option-index">03</span>
-              <span class="builder-option-copy">
-                <strong>Брендинг</strong>
-                <small>Логотип, цвета, носители и шаблоны для коммуникаций.</small>
-              </span>
-            </label>
-            <label>
-              <input type="checkbox" name="service" value="поддержка и администрирование" data-service="support">
-              <span class="builder-option-index">04</span>
-              <span class="builder-option-copy">
-                <strong>Поддержка сайта</strong>
-                <small>Обновления, контентные правки, проверка форм и отчетность.</small>
-              </span>
-            </label>
-            <label>
-              <input type="checkbox" name="service" value="редизайн существующего сайта" data-service="redesign">
-              <span class="builder-option-index">05</span>
-              <span class="builder-option-copy">
-                <strong>Редизайн</strong>
-                <small>Аудит текущих страниц, обновление визуала и перенос контента.</small>
-              </span>
-            </label>
-            <label>
-              <input type="checkbox" name="service" value="тексты для сайта" data-service="texts">
-              <span class="builder-option-index">06</span>
-              <span class="builder-option-copy">
-                <strong>Тексты</strong>
-                <small>Структура смыслов, редактура, карточки услуг и новости.</small>
-              </span>
-            </label>
-          </form>
-
-          <aside class="builder-result" aria-live="polite">
-            <div>
-              <span class="result-label">Черновик заявки</span>
-              <p id="builder-output">
-                Нужна консультация УПК РКСИ: расскажем, какой формат подойдет под вашу задачу.
-              </p>
-            </div>
-            <ul class="builder-next">
-              <li>Соберем короткий бриф</li>
-              <li>Оценим объем работ</li>
-              <li>Предложим первый план запуска</li>
-            </ul>
-            <a class="button primary small" href="#request">Перейти к форме</a>
-          </aside>
         </div>
       </section>
 
@@ -422,7 +353,7 @@
           <article>
             <span>Малый бизнес</span>
             <h3>Быстрый сайт под услугу или продукт</h3>
-            <p>Страница с понятным предложением, заявкой, контактами и базовой аналитикой.</p>
+            <p>Страница с понятным предложением, контактами и базовой аналитикой.</p>
           </article>
           <article>
             <span>Колледжи и школы</span>
@@ -481,15 +412,15 @@
         </div>
       </section>
 
-      <section class="request" id="request" aria-labelledby="request-title">
+      <section class="request contacts" id="contacts" aria-labelledby="contacts-title">
         <div class="request-copy">
-          <p class="eyebrow">Старт проекта</p>
-          <h2 id="request-title">Опишите задачу, а команда УПК предложит формат работы</h2>
+          <p class="eyebrow">Контакты</p>
+          <h2 id="contacts-title">Свяжитесь с УПК РКСИ, чтобы обсудить проект</h2>
           <p>
-            Для первого разговора достаточно указать тип проекта, сроки и ссылки на материалы.
-            Детальное техническое задание можно собрать уже после брифа.
+            Для первого разговора достаточно кратко описать задачу, сроки и материалы.
+            Формат работы можно уточнить уже после первичного обсуждения.
           </p>
-          <ul class="request-hints" aria-label="Что указать в заявке">
+          <ul class="request-hints" aria-label="Что подготовить для разговора">
             <li>
               <span>01</span>
               <strong>Цель проекта</strong>
@@ -505,53 +436,23 @@
           </ul>
         </div>
 
-        <form class="request-form" id="request-form">
-          <label>
-            <span>Имя</span>
-            <input type="text" name="name" autocomplete="name" placeholder="Как к вам обращаться">
-          </label>
-          <label>
-            <span>Контакт</span>
-            <input type="text" name="contact" autocomplete="email" placeholder="Телефон, почта или мессенджер">
-          </label>
-          <fieldset class="request-types">
-            <legend>Тип проекта</legend>
-            <label>
-              <input type="checkbox" name="type" value="лендинг или сайт проекта" data-service="site">
-              <span>Сайт</span>
-            </label>
-            <label>
-              <input type="checkbox" name="type" value="дизайн интерфейса" data-service="design">
-              <span>Дизайн</span>
-            </label>
-            <label>
-              <input type="checkbox" name="type" value="логотип и фирменный стиль" data-service="brand">
-              <span>Брендинг</span>
-            </label>
-            <label>
-              <input type="checkbox" name="type" value="поддержка и администрирование" data-service="support">
-              <span>Поддержка</span>
-            </label>
-            <label>
-              <input type="checkbox" name="type" value="редизайн существующего сайта" data-service="redesign">
-              <span>Редизайн</span>
-            </label>
-            <label>
-              <input type="checkbox" name="type" value="тексты для сайта" data-service="texts">
-              <span>Тексты</span>
-            </label>
-            <label>
-              <input type="checkbox" name="type" value="образовательный сайт">
-              <span>Образовательный сайт</span>
-            </label>
-          </fieldset>
-          <label>
-            <span>Задача</span>
-            <textarea name="message" rows="5" placeholder="Что нужно сделать, какие сроки и материалы уже есть"></textarea>
-          </label>
-          <button class="button primary" type="submit">Сформировать заявку</button>
-          <p class="form-note" id="form-note">После отправки появится готовый текст заявки для передачи в УПК.</p>
-        </form>
+        <aside class="contact-card" aria-label="Телефон для связи">
+          <div class="contact-person">
+            <img src="assets/vlad.webp" alt="Заведующий УПК">
+            <div>
+              <span>Заведующий УПК</span>
+              <strong>Владислав Борисович Каламбет</strong>
+            </div>
+          </div>
+          <span class="contact-label">Телефон для связи</span>
+          <a class="contact-phone" href="tel:+79525682104">+7 952 568 2104</a>
+          <p>Позвоните или напишите в мессенджер. Команда УПК уточнит задачу и предложит удобный формат работы.</p>
+          <div class="contact-note">
+            <span>Перед обращением</span>
+            <strong>достаточно назвать тип проекта и желаемые сроки</strong>
+          </div>
+          <a class="button primary contact-action" href="tel:+79525682104">Позвонить</a>
+        </aside>
       </section>
     </main>
 
@@ -559,11 +460,18 @@
       <div>
         <strong>УПК РКСИ</strong>
         <p>Учебно-производственная цифровая мастерская Ростовского-на-Дону колледжа связи и информатики.</p>
-        <p>© 2026 УПК РКСИ. Все права защищены.</p>
+        <button
+          class="footer-download"
+          type="button"
+          data-download-url="assets/chitaigorod_demoexam.zip"
+          data-download-name="chitaigorod_demoexam.zip"
+        >
+          © 2026 УПК РКСИ. Все права защищены.
+        </button>
       </div>
       <a href="https://rksi.ru/" target="_blank" rel="noreferrer">Официальный сайт РКСИ</a>
     </footer>
 
-    <script src="script.js?v=2"></script>
+    <script src="script.js?v=4"></script>
   </body>
 </html>
