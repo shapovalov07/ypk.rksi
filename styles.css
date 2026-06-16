@@ -1656,30 +1656,6 @@ section {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.footer-download {
-  display: block;
-  max-width: 560px;
-  margin: 8px 0 0;
-  padding: 0;
-  color: rgba(255, 255, 255, 0.7);
-  font: inherit;
-  line-height: 1.55;
-  text-align: left;
-  appearance: none;
-  background: transparent;
-  border: 0;
-  cursor: default;
-}
-
-.footer-download:hover {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.footer-download:focus-visible {
-  outline: 1px solid rgba(255, 255, 255, 0.65);
-  outline-offset: 4px;
-}
-
 .site-footer a {
   color: #bfe8ff;
   font-weight: 800;
